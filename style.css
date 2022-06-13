@@ -1,0 +1,163 @@
+
+.{
+    font-family: "Times New Roman", Times, serif;
+    font-size: medium;
+    font-weight: lighter;
+    border-radius: 1px;
+    padding: 1px;
+    margin: auto;
+    text-align: center;
+  }
+  .header{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: flex-start;
+
+    }
+    .search {
+    background-color:lightsalmon;
+    margin: 2px;
+    padding: 2px;
+    font-size: 15px;
+    }
+
+    .col{
+    display: flex;
+    background-color: white;
+
+    }
+    
+    .flexfilter{
+        display: flex;
+        background-color: white;
+
+        }
+        
+    .flexfilter > div {
+        background-color:lightsalmon;
+        margin: 5px;
+        padding: 10px;
+        font-size: 15px;
+        }
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.h3{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: flex-start; 
+}
+
+.h3 > div{
+
+    background-color:lightsalmon;
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+    align-items: flex-start;
+    text-align: left;
+}
+.col-1{
+    margin: 50px 50px 100px 100px;
+    border-radius: 16px;
+    border-style: groove;
+    background-color: azure;
+}
+.col-2{
+    margin: 100px 100px 100px 100px;
+    border-radius: 16px;
+    border-style: groove;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 2px;
+    border-style: groove;
+
+}
+,btn{
+    width: 25%;
+    height: 25%;
+}
+.center {
+    display: block;
+    margin-left:auto ;
+    margin-right: auto;
+    width: 75%;
+  }
+.todo{
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    width: 450px;
+
+    }
+
+    .col-1 {
+    background-color: white;
+    width: 450px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    }
+    
+
+    .Inprogress{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    width: 450px;
+    
+    }
+
+    .col {
+    background-color: white;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    }
+    .complete{
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    width: 450px;
+    }
+
+    .col-1 {
+    background-color: white;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    }
+.todo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2px;
+    border-style: groove;
+}
+.Inprogress{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2px;
+    border-style: groove;
+}
+.Complete{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2px;
+    border-style: groove;
+}
+  
